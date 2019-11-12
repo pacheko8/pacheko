@@ -1,0 +1,41 @@
+.form{
+	border-style: solid;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	margin-top: 10%;
+	border-radius: 7px;
+	background-color:rgb(236, 198, 217);
+}
+
+button{
+	width: 100px;
+	height: 38px;
+}
+input{
+	width: 500px;
+	height: 30px;
+}
+input:focus{
+	border-color: red;
+}
+textarea{
+	width: 500px;
+}
+
+footer{
+	bottom: 0;
+	position: absolute;
+	font-weight: bold;
+	position: fixed;
+	font-size: 25px;
+	font-style: italic;
+	background-color: #ff66ff;
+	text-align:center;
+	font-family: Papyrus;
+	padding: 20px;
+	height: 35px;
+	width: 100vw;
+	z-index: 1000;
+}

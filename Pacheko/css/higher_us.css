@@ -1,0 +1,40 @@
+body{
+	background-image: url("../IMAGES/bubble1.PNG");
+}
+
+.details{
+	border-style: solid;
+	border-radius: 7px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 6%;
+	width: 35%;
+	padding: 10px;
+	background-color:rgb(236, 198, 217);
+}
+
+button{
+	width: 75px;
+	height: 25px;
+}
+
+input{
+	width: 300px;
+	height: 20px;
+}
+
+footer{
+	bottom: 0;
+	position: absolute;
+	font-weight: bold;
+	position: fixed;
+	font-size: 25px;
+	font-style: italic;
+	background-color: #ff66ff;
+	text-align:center;
+	font-family: Papyrus;
+	padding: 20px;
+	height: 35px;
+	width: 100vw;
+	z-index: 1000;
+}
